@@ -126,6 +126,9 @@ name = "Elizabeth Rose Bloodflame"
 # 
 # IMPORTANT:  If no terms are provided, no streams will be automatically downloaded!  To
 # download every stream, use a wildcard entry `terms."(all)" = '(.*)'`.
+# 
+# Note that the pattern is specified using single-quotes to make them literal strings (allowing
+# literal use of the backslash character without escaping).
 terms."karaoke" = '(?i)(\W|^)karaoke'
 terms."unarchived" = '(?i)(\W|^)unar?chived?'
 terms."rebroadcast" = '(?i)(\W|^)re-?broadcast'
