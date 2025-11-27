@@ -149,3 +149,12 @@ output_directory = "/opt/moombox/output/liz"
 # A reminder that this only downloads video premieres, and will not download the non-premiere
 # version.  Use yt-dlp if you want that.
 include_non_live_content = true
+
+[[channels]]
+# To monitor multiple channels, specify more [[channels]] sections with the same options.
+# The only required options are 'id' and 'terms'; all other options have workable defaults.
+id = "UCP0BspO_AMEe3aQqqpo89Dg"
+name = "Moona Hoshinova"
+terms."moonutau" = '(?i)(\W|^)moonutau'
+terms."karaoke" = '(?i)(\W|^)karaoke'
+terms."archive" = '(?i)(\W|^)archive'
