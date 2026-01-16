@@ -83,6 +83,9 @@ class DownloadManager:
             downloader.unstable_bgutil_pot_provider_url = (
                 cfgmgr.config.downloader.unstable_bgutil_pot_provider_url
             )
+            downloader.unstable_cipher_solver_url = (
+                cfgmgr.config.downloader.unstable_cipher_solver_url
+            )
         if not downloader.staging_directory:
             downloader.staging_directory = pathlib.Path("staging") / jobid
 

@@ -86,6 +86,10 @@ cookie_file = "/path/to/your/cookie_file.txt"
 # Note that this option is currently unstable and may be removed at any time.
 unstable_bgutil_pot_provider_url = "http://127.0.0.1:4416"
 
+# URL to a yt-cipher instance to unscramble the 'n' parameter used in stream URLs.
+# Note that this option is currently unstable and may be removed at any time.
+unstable_cipher_solver_url = "https://cipher.kikkia.dev/"
+
 [tasklist]
 # Controls the task view.
 
