@@ -4,7 +4,7 @@ FROM docker.io/library/python:3.11-slim-bookworm
 WORKDIR /app
 
 RUN apt-get update \
-    && apt-get install --no-install-recommends --assume-yes ffmpeg ca-certificates git \
+    && apt-get install --no-install-recommends --assume-yes pkg-config ffmpeg ca-certificates git \
     && rm -rf /var/lib/apt/lists/*
 
 # Add source code and set up an editable install
